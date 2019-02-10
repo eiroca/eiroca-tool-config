@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <profiles>
 <profile name="eIrOcA style">
-<setting id="indentationChar" value="&#9;"/>
+<setting id="indentationChar" value=" "/>
 <setting id="insert_space_after_opening_paren_in_declare" value="false"/>
 <setting id="insert_space_before_closing_paren_in_declare" value="false"/>
 <setting id="insert_space_before_opening_paren_in_declare" value="false"/>
@@ -17,7 +17,7 @@
 <setting id="org.eclipse.php.formatter.core.formatter.alignment_for_assignment_line_wrap_policy" value="0"/>
 <setting id="org.eclipse.php.formatter.core.formatter.alignment_for_binary_expression_force_split" value="false"/>
 <setting id="org.eclipse.php.formatter.core.formatter.alignment_for_binary_expression_indent_policy" value="0"/>
-<setting id="org.eclipse.php.formatter.core.formatter.alignment_for_binary_expression_line_wrap_policy" value="0"/>
+<setting id="org.eclipse.php.formatter.core.formatter.alignment_for_binary_expression_line_wrap_policy" value="1"/>
 <setting id="org.eclipse.php.formatter.core.formatter.alignment_for_compact_if_force_split" value="false"/>
 <setting id="org.eclipse.php.formatter.core.formatter.alignment_for_compact_if_indent_policy" value="0"/>
 <setting id="org.eclipse.php.formatter.core.formatter.alignment_for_compact_if_line_wrap_policy" value="0"/>
@@ -36,27 +36,30 @@
 <setting id="org.eclipse.php.formatter.core.formatter.alignment_for_superinterfaces_in_type_declaration_force_split" value="false"/>
 <setting id="org.eclipse.php.formatter.core.formatter.alignment_for_superinterfaces_in_type_declaration_indent_policy" value="0"/>
 <setting id="org.eclipse.php.formatter.core.formatter.alignment_for_superinterfaces_in_type_declaration_line_wrap_policy" value="0"/>
-<setting id="org.eclipse.php.formatter.core.formatter.blank_lines_before_field" value="0"/>
-<setting id="org.eclipse.php.formatter.core.formatter.blank_lines_before_member_type" value="0"/>
+<setting id="org.eclipse.php.formatter.core.formatter.blank_lines_before_field" value="1"/>
+<setting id="org.eclipse.php.formatter.core.formatter.blank_lines_before_member_type" value="1"/>
 <setting id="org.eclipse.php.formatter.core.formatter.blank_lines_before_method" value="1"/>
 <setting id="org.eclipse.php.formatter.core.formatter.blank_lines_between_type_declarations" value="1"/>
 <setting id="org.eclipse.php.formatter.core.formatter.brace_position_for_block" value="0"/>
+<setting id="org.eclipse.php.formatter.core.formatter.brace_position_for_lambda_function_declaration" value="0"/>
 <setting id="org.eclipse.php.formatter.core.formatter.brace_position_for_method_declaration" value="0"/>
 <setting id="org.eclipse.php.formatter.core.formatter.brace_position_for_switch" value="0"/>
 <setting id="org.eclipse.php.formatter.core.formatter.brace_position_for_type_declaration" value="0"/>
 <setting id="org.eclipse.php.formatter.core.formatter.comment.clear_blank_lines_in_block_comment" value="false"/>
 <setting id="org.eclipse.php.formatter.core.formatter.comment.clear_blank_lines_in_javadoc_comment" value="false"/>
-<setting id="org.eclipse.php.formatter.core.formatter.comment.format_block_comments" value="true"/>
+<setting id="org.eclipse.php.formatter.core.formatter.comment.format_block_comments" value="false"/>
 <setting id="org.eclipse.php.formatter.core.formatter.comment.format_header" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.comment.format_html" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.comment.format_javadoc_comments" value="true"/>
-<setting id="org.eclipse.php.formatter.core.formatter.comment.format_line_comments" value="true"/>
+<setting id="org.eclipse.php.formatter.core.formatter.comment.format_line_comments" value="false"/>
 <setting id="org.eclipse.php.formatter.core.formatter.comment.format_source_code" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.comment.indent_parameter_description" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.comment.indent_root_tags" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.comment.insert_new_line_before_root_tags" value="true"/>
-<setting id="org.eclipse.php.formatter.core.formatter.comment.insert_new_line_for_parameter" value="true"/>
+<setting id="org.eclipse.php.formatter.core.formatter.comment.insert_new_line_for_parameter" value="false"/>
+<setting id="org.eclipse.php.formatter.core.formatter.comment.keep_empty_line_for_empty_description" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.comment.line_length" value="9999"/>
+<setting id="org.eclipse.php.formatter.core.formatter.comment.never_format_unknown_tags" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.comment.new_lines_at_block_boundaries" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.comment.new_lines_at_javadoc_boundaries" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.comment.preserve_white_space_between_code_and_line_comments" value="false"/>
@@ -69,11 +72,12 @@
 <setting id="org.eclipse.php.formatter.core.formatter.indent_body_declarations_compare_to_type_header" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.indent_breaks_compare_to_cases" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.indent_empty_lines" value="false"/>
+<setting id="org.eclipse.php.formatter.core.formatter.indent_heredocs" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.indent_statements_compare_to_block" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.indent_statements_compare_to_body" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.indent_switchstatements_compare_to_cases" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.indent_switchstatements_compare_to_switch" value="true"/>
-<setting id="org.eclipse.php.formatter.core.formatter.indentation.size" value="1"/>
+<setting id="org.eclipse.php.formatter.core.formatter.indentation.size" value="2"/>
 <setting id="org.eclipse.php.formatter.core.formatter.insert_new_line_after_opening_brace_in_array_initializer" value="false"/>
 <setting id="org.eclipse.php.formatter.core.formatter.insert_new_line_before_catch_in_try_statement" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.insert_new_line_before_closing_brace_in_array_initializer" value="true"/>
@@ -82,7 +86,7 @@
 <setting id="org.eclipse.php.formatter.core.formatter.insert_new_line_before_while_in_do_statement" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.insert_new_line_in_empty_block" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.insert_new_line_in_empty_method_body" value="true"/>
-<setting id="org.eclipse.php.formatter.core.formatter.insert_new_line_in_empty_type_declaration" value="true"/>
+<setting id="org.eclipse.php.formatter.core.formatter.insert_new_line_in_empty_type_declaration" value="false"/>
 <setting id="org.eclipse.php.formatter.core.formatter.insert_space_after_arrow_in_array_creation" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.insert_space_after_arrow_in_field_access" value="false"/>
 <setting id="org.eclipse.php.formatter.core.formatter.insert_space_after_arrow_in_foreach" value="true"/>
@@ -189,13 +193,14 @@
 <setting id="org.eclipse.php.formatter.core.formatter.keep_elseif_statement_on_same_line" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.keep_imple_if_on_one_line" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.keep_then_statement_on_same_line" value="false"/>
+<setting id="org.eclipse.php.formatter.core.formatter.keep_trailing_comma_in_list" value="false"/>
 <setting id="org.eclipse.php.formatter.core.formatter.lineSplit" value="999"/>
 <setting id="org.eclipse.php.formatter.core.formatter.never_indent_block_comments_on_first_column" value="false"/>
 <setting id="org.eclipse.php.formatter.core.formatter.never_indent_line_comments_on_first_column" value="false"/>
 <setting id="org.eclipse.php.formatter.core.formatter.number_of_blank_lines_after_namespace" value="1"/>
 <setting id="org.eclipse.php.formatter.core.formatter.number_of_blank_lines_after_use_statements" value="1"/>
 <setting id="org.eclipse.php.formatter.core.formatter.number_of_blank_lines_at_beginning_of_method_body" value="0"/>
-<setting id="org.eclipse.php.formatter.core.formatter.number_of_blank_lines_at_end_of_class_body" value="0"/>
+<setting id="org.eclipse.php.formatter.core.formatter.number_of_blank_lines_at_end_of_class_body" value="1"/>
 <setting id="org.eclipse.php.formatter.core.formatter.number_of_blank_lines_at_end_of_method_body" value="0"/>
 <setting id="org.eclipse.php.formatter.core.formatter.number_of_blank_lines_before_namespace" value="0"/>
 <setting id="org.eclipse.php.formatter.core.formatter.number_of_blank_lines_before_use_statements" value="0"/>
