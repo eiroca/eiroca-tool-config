@@ -13,7 +13,6 @@
 <setting id="cleanup.make_variable_declarations_final" value="true"/>
 <setting id="cleanup.add_missing_methods" value="true"/>
 <setting id="cleanup.always_use_this_for_non_static_field_access" value="false"/>
-<setting id="cleanup.use_type_arguments" value="false"/>
 <setting id="cleanup.remove_trailing_whitespaces_ignore_empty" value="false"/>
 <setting id="cleanup.correct_indentation" value="true"/>
 <setting id="cleanup.never_use_parentheses_in_expressions" value="false"/>
